@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
+git commit -am "conflicting chage"
+
 namespace Lab1.ArchaeologySim
 {
     #region Enums
