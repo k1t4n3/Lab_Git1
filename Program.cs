@@ -534,7 +534,9 @@ namespace Lab1.ArchaeologySim
             Header("Археологическая экспедиция — Лаба 1 (ООП + SOLID)");
 
             var rng = new Random();
-            
+
+            //оптимизировал кодик
+
             var forecast = new[] { "ясно", "ветер", "песчаная буря" };
             var world = new World(new ConsoleLogger(), rng, WeatherState.Clear, forecast);
 
