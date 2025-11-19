@@ -1,4 +1,4 @@
-﻿// Program.cs — Лаба 1: Археологическая экспедиция
+// Program.cs — Аттестация: Археологическая экспедиция
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -531,7 +531,7 @@ namespace Lab1.ArchaeologySim
                 Console.WriteLine(new string('=', title.Length + 8));
             }
 
-            Header("Археологическая экспедиция — Лаба 1 (ООП + SOLID)");
+            Header("Археологическая экспедиция (Пример для аттестации)");
 
             var rng = new Random();
 
