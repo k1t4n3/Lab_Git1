@@ -534,13 +534,13 @@ namespace Lab1.ArchaeologySim
             Header("Археологическая экспедиция — Лаба 1 (ООП + SOLID)");
 
             var rng = new Random();
-            //оптимизировал код
+            
             var forecast = new[] { "ясно", "ветер", "песчаная буря" };
             var world = new World(new ConsoleLogger(), rng, WeatherState.Clear, forecast);
 
             var brush = new BrushTool("Кисть №5", 0.2, rng.Next(1, 4));
             var drone = new SurveyDrone("«Глаз-Сокол»", rng);
-
+            //исправил незначительные ошибки
             var team = new List<Entity>
             {
                 new Archaeologist("Инесса", brush, rng),
